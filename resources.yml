@@ -19,5 +19,5 @@ resources:
     type: ecsCluster
     integration: awsInt
     source:
-      name : "test-cluster"  #name of the cluster we are deploying
+      name : "test-cluster" #name of the cluster we are deploying
       region: "us-east-1"
