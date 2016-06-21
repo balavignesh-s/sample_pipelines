@@ -1,7 +1,7 @@
 resources:
   - name: dv-image
     type: image
-    integration: awsInt
+    integration: dockerInt
     source:
       name: "library/nginx"
       isPull: false
@@ -17,7 +17,7 @@ resources:
 
   - name: env-test
     type: ecsCluster
-    integration: ric03uec-ecs
+    integration: awsInt
     source:
       name : "test-aws" #name of the cluster we are deploying
       region: "us-east-1"
