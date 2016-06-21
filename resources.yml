@@ -7,14 +7,6 @@ resources:
       isPull: true
       tag: latest
 
-  - name: dv-opts
-    type: dockerOptions
-    source:
-      memory: 64
-      cpu-shares: 256
-      portMappings:
-        - "80:80"
-
   - name: env-test
     type: ecsCluster
     integration: awsInt
