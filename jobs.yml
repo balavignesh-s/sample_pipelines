@@ -3,7 +3,6 @@ jobs:
     type: manifest
     steps:
       - GET: dv-image
-      - GET: dv-opts
 
   - name: dv-test
     type: ecsDeploy
